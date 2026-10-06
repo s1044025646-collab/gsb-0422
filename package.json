@@ -1,0 +1,17 @@
+{
+  "name": "minkowski-sum",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test test/*.test.ts",
+    "start": "node src/cli.ts serve",
+    "demo": "node src/cli.ts demo",
+    "cli": "node src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "*",
+    "typescript": "*"
+  }
+}
